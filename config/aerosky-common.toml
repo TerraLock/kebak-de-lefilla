@@ -1,0 +1,27 @@
+#Above the high storm cloud decks (Aero Sky Layers resource pack) the storm is below you.
+#Applies in the Overworld only, and only while it is raining or thundering.
+[aerosky]
+	#Master switch.
+	enabled = true
+	#Top of the high rain deck. Above this Y, while raining (not thundering), the storm is below you.
+	#Matches cloud_layers:aero_rain_high (base 640, up to 18 thick).
+	# Default: 660
+	# Range: -64 ~ 4096
+	rainDeckTopY = 660
+	#Top of the high thunderstorm deck. Above this Y, while thundering, the storm is below you.
+	#Matches cloud_layers:aero_thunder_high (base 628, up to 40 thick).
+	# Default: 670
+	# Range: -64 ~ 4096
+	thunderDeckTopY = 670
+	#Client: no rain/snow drawing, rain sounds or splashes above the deck.
+	hideRainAbove = true
+	#Server + client: the game does not count blocks/entities above the deck as being in rain
+	#(fire is not put out, no riptide, farmland not watered, no faster fishing, no lightning targets, ...).
+	dryAbove = true
+	#Client: sky, fog, sun and daylight are not darkened by the storm above the deck.
+	clearSkyAbove = true
+	#Living Wind strength multiplier above the deck (airship forces, entity push, particles, sounds).
+	#0 = calm above the storm, 1 = unchanged.
+	# Default: 0.0
+	# Range: 0.0 ~ 1.0
+	windMultiplierAbove = 0.0

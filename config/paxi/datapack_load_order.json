@@ -1,0 +1,6 @@
+{
+  "loadOrder": [
+    "aero_depth_remap",
+    "aero_worldgen"
+  ]
+}

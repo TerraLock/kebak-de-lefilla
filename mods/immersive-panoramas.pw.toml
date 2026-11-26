@@ -1,0 +1,13 @@
+name = "Immersive Panoramas"
+filename = "immersivepanoramas-neoforge-1.1-1.21.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/U4f1Udr7/versions/VBCpnnmF/immersivepanoramas-neoforge-1.1-1.21.1.jar"
+hash-format = "sha512"
+hash = "2108d985d45dbeeead2d148241868a4e7a1eba32761037053c4e155e8b8ec1fcb5060aee07513dc504ce19f5a86792db2566ac1998c41ed54797a0d5b778729c"
+
+[update]
+[update.modrinth]
+mod-id = "U4f1Udr7"
+version = "VBCpnnmF"

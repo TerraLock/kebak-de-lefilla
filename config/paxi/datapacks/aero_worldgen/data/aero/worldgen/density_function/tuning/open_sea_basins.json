@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:flat_cache",
+  "argument": {
+    "type": "minecraft:cache_2d",
+    "argument": {
+      "type": "minecraft:mul",
+      "argument1": -0.7,
+      "argument2": {
+        "type": "minecraft:clamp",
+        "input": {
+          "type": "minecraft:mul",
+          "argument1": -3.0,
+          "argument2": {
+            "type": "minecraft:add",
+            "argument1": {
+              "type": "minecraft:noise",
+              "noise": "aero:sea_regions",
+              "xz_scale": 0.8,
+              "y_scale": 0.0
+            },
+            "argument2": 0.25
+          }
+        },
+        "min": 0.0,
+        "max": 1.0
+      }
+    }
+  }
+}

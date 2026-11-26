@@ -1,0 +1,13 @@
+name = "Create: Metalwork"
+filename = "createmetalwork-neoforge-1.21.1-3.1.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/q5i9RTSJ/versions/pOXSlxMI/createmetalwork-neoforge-1.21.1-3.1.0.jar"
+hash-format = "sha512"
+hash = "df1d796cf49b6bc9e1438768c72c57f90428b956a560467a0fc3cf1907011f70caae4152164537424964e73093fe201d87cfc9208b3cfc95cf4ca926f7340b2c"
+
+[update]
+[update.modrinth]
+mod-id = "q5i9RTSJ"
+version = "pOXSlxMI"

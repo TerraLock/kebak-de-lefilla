@@ -1,0 +1,28 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "tectonic"
+    }
+  ],
+  "type": "lithostitched:wrap_density_function",
+  "priority": 930,
+  "target_function": "tectonic:terrain_spline/offset/final",
+  "wrapper_function": {
+    "type": "minecraft:flat_cache",
+    "argument": {
+      "type": "minecraft:cache_2d",
+      "argument": {
+        "type": "minecraft:add",
+        "argument1": {
+          "type": "lithostitched:wrapped_marker"
+        },
+        "argument2": {
+          "type": "minecraft:add",
+          "argument1": "aero:tuning/ridge_relief",
+          "argument2": "aero:tuning/plateau_roughness"
+        }
+      }
+    }
+  }
+}

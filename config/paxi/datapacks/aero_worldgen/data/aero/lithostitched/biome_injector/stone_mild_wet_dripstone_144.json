@@ -1,0 +1,34 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "tectonic"
+    }
+  ],
+  "type": "lithostitched:force_placement",
+  "dimension": "minecraft:overworld",
+  "priority": 144,
+  "biome": "minecraft:dripstone_caves",
+  "parameters": {
+    "depth": [
+      0.3,
+      0.95
+    ],
+    "temperature": [
+      -0.25,
+      0.25
+    ],
+    "humidity": [
+      0.0,
+      2.0
+    ],
+    "aero:cave_biome/selector_a": [
+      0.21355,
+      10.0
+    ],
+    "aero:cave_biome/selector_b": [
+      -10.0,
+      -5e-05
+    ]
+  }
+}

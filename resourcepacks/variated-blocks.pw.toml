@@ -1,0 +1,13 @@
+name = "Variated Blocks"
+filename = "VARIATED BLOCK.zip"
+side = "client"
+
+[download]
+hash-format = "sha1"
+hash = "fb27308cea08798ff195051d9da9dc0fc7ab555c"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7312422
+project-id = 1271257

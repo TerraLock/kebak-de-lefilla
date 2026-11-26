@@ -1,0 +1,27 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create_sky_village"
+    }
+  ],
+  "type": "create_sky_village:chunk_safe_template_grid",
+  "structure_id": "create_sky_village:highwind_village",
+  "template": "create_sky_village:highwind_village_release",
+  "slice_size": 16,
+  "base_spacing": 96,
+  "base_separation": 32,
+  "spawn_overrides": {},
+  "step": "surface_structures",
+  "terrain_adaptation": "none",
+  "start_height": {
+    "type": "minecraft:uniform",
+    "min_inclusive": {
+      "absolute": 420
+    },
+    "max_inclusive": {
+      "absolute": 470
+    }
+  },
+  "biomes": "#minecraft:is_overworld"
+}

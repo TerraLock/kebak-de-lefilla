@@ -1,0 +1,15 @@
+#Walker attachment physics fixes. The server's values control physics.
+#步行机附件物理修正，以服务端配置为准。
+[physics]
+	#Fix unsupported Cargo falling; share native jump and LIW 0.1.5 extra fall-gravity deltas with hull-rooted non-rigid cargo.
+	#Fixed hull attachments follow the native hull reference; leg attachments keep their IK path.
+	#False restores native Cargo falling and jumping without changing the hull's native gravity or air steering.
+	#连接兼容（默认开启）：修正 Cargo 无支撑下落，并向机身挂载链中的非刚性附件同步起跳及 LIW 0.1.5 额外重力增量。
+	#固定机身附件沿用原生参考速度随动，腿部附件沿用 IK 路径。
+	#关闭后恢复原生 Cargo 下落和起跳处理，不改机身原生重力及空中姿态控制；独立于电机反重力屏蔽。
+	connectionCompatibility = true
+	#Suppress extra Synaxis motor gravity compensation for Walker cargo only.
+	#False lets motors apply compensation according to their saved settings.
+	#反重力屏蔽（默认开启）：阻止电机对 Walker Cargo 附件重复施加反重力。
+	#关闭后遵循电机原有重力补偿开关；独立于连接兼容。
+	suppressMotorGravityCompensation = true

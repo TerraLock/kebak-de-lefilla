@@ -1,0 +1,34 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "tectonic"
+    }
+  ],
+  "type": "lithostitched:force_placement",
+  "dimension": "minecraft:overworld",
+  "priority": 197,
+  "biome": "minecraft:deep_dark",
+  "parameters": {
+    "depth": [
+      0.95,
+      1.3
+    ],
+    "temperature": [
+      0.25,
+      2.0
+    ],
+    "humidity": [
+      0.0,
+      2.0
+    ],
+    "aero:cave_biome/selector_a": [
+      -10.0,
+      -0.21209
+    ],
+    "aero:cave_biome/selector_b": [
+      -10.0,
+      0.20584
+    ]
+  }
+}

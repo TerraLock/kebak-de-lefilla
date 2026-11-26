@@ -1,0 +1,13 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "tectonic"
+    }
+  ],
+  "type": "lithostitched:wrap_noise_router",
+  "priority": 1000,
+  "dimension": "minecraft:overworld",
+  "target": "depth",
+  "wrapper_function": "aero:layered_depth"
+}

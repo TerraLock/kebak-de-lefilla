@@ -1,0 +1,41 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "supplementaries"
+    }
+  ],
+  "feature": "supplementaries:urns_patch",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 9
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "minecraft:uniform",
+        "max_inclusive": {
+          "absolute": 16
+        },
+        "min_inclusive": {
+          "absolute": -104
+        }
+      }
+    },
+    {
+      "type": "moonlight:below_heightmaps",
+      "heightmaps": [
+        "MOTION_BLOCKING_NO_LEAVES",
+        "OCEAN_FLOOR_WG"
+      ],
+      "below_sea_level": true
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

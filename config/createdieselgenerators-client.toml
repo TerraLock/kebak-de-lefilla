@@ -1,0 +1,5 @@
+["Client Configs"]
+	#Fuel type tooltip on Buckets
+	"Fuel tooltips" = true
+	#Diesel Engines emit sounds on trains
+	"Diesel Engines emit sounds on trains" = true

@@ -1,0 +1,50 @@
+{
+  "minecraft:overworld": [
+    {
+      "layer": "cloud_layers:aero_cumulus",
+      "weather": {
+        "clear": true,
+        "rain": false,
+        "thunder": false
+      }
+    },
+    {
+      "layer": "cloud_layers:aero_rain_deck",
+      "weather": {
+        "clear": false,
+        "rain": true,
+        "thunder": false
+      }
+    },
+    {
+      "layer": "cloud_layers:aero_rain_high",
+      "weather": {
+        "clear": false,
+        "rain": true,
+        "thunder": false
+      }
+    },
+    {
+      "layer": "cloud_layers:aero_thunder_deck",
+      "weather": {
+        "clear": false,
+        "rain": false,
+        "thunder": true
+      }
+    },
+    {
+      "layer": "cloud_layers:aero_thunder_high",
+      "weather": {
+        "clear": false,
+        "rain": false,
+        "thunder": true
+      }
+    },
+    {
+      "layer": "cloud_layers:aero_alto"
+    },
+    {
+      "layer": "cloud_layers:aero_cirrus"
+    }
+  ]
+}

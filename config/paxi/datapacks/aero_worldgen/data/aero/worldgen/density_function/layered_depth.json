@@ -1,0 +1,41 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "tectonic"
+    }
+  ],
+  "type": "minecraft:min",
+  "argument1": "tectonic:depth",
+  "argument2": {
+    "type": "minecraft:add",
+    "argument1": 0.6,
+    "argument2": {
+      "type": "minecraft:add",
+      "argument1": {
+        "type": "minecraft:y_clamped_gradient",
+        "from_y": -32,
+        "to_y": 64,
+        "from_value": 0.35,
+        "to_value": 0.0
+      },
+      "argument2": {
+        "type": "minecraft:add",
+        "argument1": {
+          "type": "minecraft:y_clamped_gradient",
+          "from_y": -128,
+          "to_y": -32,
+          "from_value": 0.35,
+          "to_value": 0.0
+        },
+        "argument2": {
+          "type": "minecraft:y_clamped_gradient",
+          "from_y": -192,
+          "to_y": -128,
+          "from_value": 0.7,
+          "to_value": 0.0
+        }
+      }
+    }
+  }
+}

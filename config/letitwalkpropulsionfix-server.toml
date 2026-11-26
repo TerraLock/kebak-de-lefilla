@@ -1,0 +1,7 @@
+enabled = true
+connectedAssemblies = true
+allowVerticalOverride = false
+debugLogging = false
+# Default: 0.0
+# Range: 0.0 ~ 1.0
+retainedOpposition = 0.0

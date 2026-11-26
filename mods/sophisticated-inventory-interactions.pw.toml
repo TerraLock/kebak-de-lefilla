@@ -1,0 +1,13 @@
+name = "Sophisticated Inventory Interactions"
+filename = "sophisticatedinventoryinteractions-1.21.1-0.1.16.239.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/orgY0JIo/versions/7oGWifbP/sophisticatedinventoryinteractions-1.21.1-0.1.16.239.jar"
+hash-format = "sha512"
+hash = "cfa45d53fcbec9562185ba3c72a7f7a0edadf3e0c899f8b619b347ea8cfc059650a91952444c40c80c5187fc8ea62790eea31eaae569897d903cc6c4706f2ff9"
+
+[update]
+[update.modrinth]
+mod-id = "orgY0JIo"
+version = "7oGWifbP"

@@ -1,0 +1,12 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "tectonic"
+    }
+  ],
+  "type": "lithostitched:wrap_density_function",
+  "priority": 920,
+  "target_function": "tectonic:__constants/vertical_scale",
+  "wrapper_function": "aero:tuning/vertical_scale"
+}

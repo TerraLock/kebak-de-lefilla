@@ -1,0 +1,89 @@
+	[cimulink.luacuit]
+		#Allows a Luacuit script to request synchronous game-tick execution in define().
+		allow_script_sync = false
+		#Allows a script to request the light trusted watcher mode.
+		allow_trusted_light = false
+		#Allows scripts to run without the Luacuit watcher hook. Unsafe on public servers.
+		allow_trusted_unwatched = false
+		#Allows trusted_unwatched Luacuit scripts to run on the experimental LuaJC backend.
+		allow_luajc_backend = false
+		#Default Luacuit execution mode: async_wait or async_non_blocking.
+		#Allowed Values: ASYNC_NON_BLOCKING, ASYNC_WAIT
+		default_execution_mode = "ASYNC_WAIT"
+		#Maximum main-thread wait for async game-tick Luacuit results, in microseconds.
+		# Default: 24000
+		# Range: 0 ~ 1000000
+		max_async_wait_game_tick_micros = 24000
+		#Maximum main-thread wait for async physics Luacuit results, in microseconds.
+		# Default: 8000
+		# Range: 0 ~ 1000000
+		max_async_wait_physics_micros = 8000
+		#Maximum watcher wall-clock budget for synchronous game-tick Luacuit execution, in microseconds.
+		# Default: 1000
+		# Range: 1 ~ 1000000
+		max_sync_game_tick_micros = 1000
+		#Allows synchronous execution in physics substep domains. Off by default.
+		allow_sync_in_physics_substep = false
+		#Maximum synchronous Luacuit executions allowed per server tick.
+		# Default: 64
+		# Range: 0 ~ 1000000
+		max_sync_luacuits_per_tick = 64
+		#Allows players with Luacuit UI access to start per-Luacuit profiling sessions.
+		allow_luacuit_profiling = false
+		#Maximum Luacuit profile samples per session. -1 disables the limit, 0 disables profiling.
+		# Default: 1000
+		# Range: -1 ~ 1000000
+		max_luacuit_profile_ticks = 1000
+
+		[cimulink.luacuit.budget]
+			#Default maximum Luacuit source size, in UTF-8 bytes.
+			# Default: 327680
+			# Range: 1 ~ 2097152
+			max_source_bytes = 327680
+			#Default maximum Lua VM instructions per Luacuit execution.
+			# Default: 2500000
+			# Range: 1 ~ 100000000
+			max_instructions = 2500000
+			#Default maximum wall-clock time per Luacuit execution, in milliseconds.
+			# Default: 250
+			# Range: 1 ~ 60000
+			max_wall_clock_millis = 250
+			#Default per-script async result wait budget in game-tick execution, in microseconds.
+			# Default: 24000
+			# Range: 0 ~ 1000000
+			max_step_wait_game_tick_micros = 24000
+			#Default per-script async result wait budget in physics execution, in microseconds.
+			# Default: 8000
+			# Range: 0 ~ 1000000
+			max_step_wait_physics_control_micros = 8000
+			#Default maximum JVM thread allocation delta per Luacuit execution, in bytes.
+			# Default: 4194304
+			# Range: > 1
+			max_allocated_bytes = 4194304
+			#Default maximum output writes per Luacuit execution.
+			# Default: 128
+			# Range: 1 ~ 1000000
+			max_output_writes = 128
+			#Default maximum external writes per Luacuit execution, shared by bus and wireless writes.
+			# Default: 128
+			# Range: 1 ~ 1000000
+			max_bus_writes = 128
+			# Default: 8
+			# Range: 1 ~ 10000
+			max_declared_devices = 8
+			#Default maximum bus read subscriptions declared in define().
+			# Default: 128
+			# Range: 1 ~ 1000000
+			max_declared_bus_reads = 128
+			#Default target capacity for dynamically observed bus reads.
+			# Default: 128
+			# Range: 1 ~ 1000000
+			max_observed_bus_reads = 128
+			#Default maximum console lines and debug watch keys per Luacuit execution.
+			# Default: 128
+			# Range: 1 ~ 1000000
+			max_console_lines = 128
+			#Default maximum persistent state entries per Luacuit instance.
+			# Default: 128
+			# Range: 1 ~ 1000000
+			max_state_entries = 128

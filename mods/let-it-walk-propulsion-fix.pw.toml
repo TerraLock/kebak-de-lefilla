@@ -1,0 +1,13 @@
+name = "Let It Walk! - Propulsion Fix"
+filename = "let-it-walk-propulsion-fix-0.1.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "8271b609789fea6930b1b8cd2018a21a64dd54ba"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9684922
+project-id = 1814241

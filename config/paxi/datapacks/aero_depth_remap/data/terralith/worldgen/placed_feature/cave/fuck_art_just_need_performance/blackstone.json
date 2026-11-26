@@ -1,0 +1,66 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "lithostitched"
+    }
+  ],
+  "feature": {
+    "type": "minecraft:netherrack_replace_blobs",
+    "config": {
+      "radius": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 5,
+        "max_inclusive": 12
+      },
+      "state": {
+        "Name": "minecraft:blackstone",
+        "Properties": {
+          "axis": "y"
+        }
+      },
+      "target": {
+        "Name": "minecraft:deepslate",
+        "Properties": {
+          "axis": "y"
+        }
+      }
+    }
+  },
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": {
+        "type": "minecraft:weighted_list",
+        "distribution": [
+          {
+            "data": 192,
+            "weight": 100
+          }
+        ]
+      }
+    },
+    {
+      "type": "minecraft:count",
+      "count": 2
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "minecraft:uniform",
+        "min_inclusive": {
+          "absolute": -80
+        },
+        "max_inclusive": {
+          "absolute": -32
+        }
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

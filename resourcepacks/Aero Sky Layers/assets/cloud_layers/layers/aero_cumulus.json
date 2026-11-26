@@ -1,0 +1,7 @@
+{
+  "height": 260,
+  "scale": 12,
+  "velocity": [-0.8, 0.25],
+  "color": { "texture": "cloud_layers:textures/color/new_vanilla.png", "multiply": [1, 1, 1, 0.92] },
+  "thickness": { "texture": "cloud_layers:textures/thickness/new_vanilla.png", "multiply": [10, 0, 0, 0], "add": 2 }
+}

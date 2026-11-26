@@ -1,0 +1,9 @@
+[recipes]
+	#Use the complete Control Engineering circuit manufacturing chain.
+	#true (default): use PCB assembly and stonecutting; disable Synaxis circuit products and both circuit blanks.
+	#false: use the native Synaxis circuit chain; disable Control Engineering PCB manufacturing, circuit assembly and conversions.
+	#Save changes and run /reload, or reopen the world. The server's loaded recipes apply to all players.
+	#true（默认）使用本模组电路制造链，禁用原生电路成品及两种毛坯配方。
+	#false 使用原生制造链，禁用本模组的覆铜板、印刷电路板、电路装配及切石转换配方。
+	#保存后执行 /reload 或重新进入世界生效；以服务端配方为准。
+	useControlEngineeringCircuitRecipes = true

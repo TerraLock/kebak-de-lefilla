@@ -1,0 +1,13 @@
+name = "§6Immersive§8_§6Interfaces§8.zip"
+filename = "§6Immersive§8_§6Interfaces§8.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/3sV1gvyJ/versions/O3yjKBEp/%C2%A76Immersive%C2%A78_%C2%A76Interfaces%C2%A78.zip"
+hash-format = "sha512"
+hash = "d2a3825d9218bf2c53726983d51f0d559c12c99aec37631850f03087f623d28433b98b19d447f51d47556bf3e9b4e31721581a9e834640037aa2ec98eb3c7bb4"
+
+[update]
+[update.modrinth]
+mod-id = "3sV1gvyJ"
+version = "O3yjKBEp"

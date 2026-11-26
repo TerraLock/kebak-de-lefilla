@@ -1,0 +1,8 @@
+{
+  "height": 640,
+  "scale": 14,
+  "offset": [700, -2100],
+  "velocity": [-1.4, 0.5],
+  "color": [0.82, 0.84, 0.87, 0.95],
+  "thickness": { "texture": "cloud_layers:textures/thickness/new_vanilla.png", "multiply": [12, 0, 0, 0], "add": 6 }
+}

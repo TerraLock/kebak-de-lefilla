@@ -1,0 +1,45 @@
+{
+  "pressureMultiplier": 1.0,
+  "nodes": [
+    {
+      "altitude": -192.0,
+      "basePressure": 1.3
+    },
+    {
+      "altitude": -64.0,
+      "basePressure": 1.15
+    },
+    {
+      "altitude": 63.0,
+      "basePressure": 1.0
+    },
+    {
+      "altitude": 200.0,
+      "basePressure": 0.85
+    },
+    {
+      "altitude": 320.0,
+      "basePressure": 0.7
+    },
+    {
+      "altitude": 420.0,
+      "basePressure": 0.55
+    },
+    {
+      "altitude": 520.0,
+      "basePressure": 0.38
+    },
+    {
+      "altitude": 600.0,
+      "basePressure": 0.25
+    },
+    {
+      "altitude": 680.0,
+      "basePressure": 0.12
+    },
+    {
+      "altitude": 760.0,
+      "basePressure": 0.03
+    }
+  ]
+}

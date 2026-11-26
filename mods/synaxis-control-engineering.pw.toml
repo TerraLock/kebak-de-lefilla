@@ -1,0 +1,13 @@
+name = "Synaxis:Control Engineering"
+filename = "control_engineering-1.5.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "5cc0a1c6818e1db64478a2fb77c747c3c3b2a96f"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9734249
+project-id = 1647112

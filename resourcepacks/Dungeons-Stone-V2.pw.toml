@@ -1,0 +1,13 @@
+name = "Dungeons Stone V2.zip"
+filename = "Dungeons Stone V2.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/V2MiSsIL/versions/JlBeTVdy/Dungeons%20Stone%20V2.zip"
+hash-format = "sha512"
+hash = "d60d8e5eaca5801ff1198696818d8cba14fc1039eaa5eccf3713fa00091903a1f2ca44feb2ff97f315c5323514a032a0bf110410f0724aa7adf8a6f38c01c4f0"
+
+[update]
+[update.modrinth]
+mod-id = "V2MiSsIL"
+version = "JlBeTVdy"

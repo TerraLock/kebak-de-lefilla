@@ -1,0 +1,15 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "tectonic"
+    }
+  ],
+  "type": "minecraft:mul",
+  "argument1": -0.2,
+  "argument2": {
+    "type": "minecraft:mul",
+    "argument1": "aero:caves/depth_curve",
+    "argument2": "aero:caves/surface_guard"
+  }
+}

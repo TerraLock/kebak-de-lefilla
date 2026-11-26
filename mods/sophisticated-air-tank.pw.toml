@@ -1,0 +1,13 @@
+name = "Create: Sophisticated Air Tank"
+filename = "sophisticatedairtank-1.1.0-1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "f22b700beac0552fd9f24086606b523e3531490c"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9745741
+project-id = 1678915

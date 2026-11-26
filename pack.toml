@@ -1,0 +1,13 @@
+name = "Kebak de Lefilla"
+author = "TerraLock"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "334374883ae83152ea30adbc4daeaaecd53266797ff4370c76f0b1abeb387dd6"
+
+[versions]
+minecraft = "1.21.1"
+neoforge = "21.1.265"

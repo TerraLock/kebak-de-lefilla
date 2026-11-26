@@ -1,0 +1,26 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "tectonic"
+    }
+  ],
+  "type": "lithostitched:wrap_density_function",
+  "priority": 940,
+  "target_function": "tectonic:caves",
+  "wrapper_function": {
+    "type": "minecraft:min",
+    "argument1": {
+      "type": "minecraft:add",
+      "argument1": {
+        "type": "lithostitched:wrapped_marker"
+      },
+      "argument2": "aero:caves/openness_bias"
+    },
+    "argument2": {
+      "type": "minecraft:min",
+      "argument1": "aero:caves/vertical_caverns",
+      "argument2": "aero:caves/chasms"
+    }
+  }
+}

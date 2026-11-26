@@ -1,0 +1,9 @@
+{
+  "enabled": true,
+  "alignPlayerRotation": true,
+  "enableSingleplayer": true,
+  "enableMultiplayer": true,
+  "captureResolution": "AUTO",
+  "filterMode": "BLOCK_LIST",
+  "filteredWorlds": []
+}

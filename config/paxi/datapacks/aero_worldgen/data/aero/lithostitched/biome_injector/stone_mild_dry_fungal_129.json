@@ -1,0 +1,38 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "terralith"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "tectonic"
+    }
+  ],
+  "type": "lithostitched:force_placement",
+  "dimension": "minecraft:overworld",
+  "priority": 129,
+  "biome": "terralith:cave/fungal_caves",
+  "parameters": {
+    "depth": [
+      0.3,
+      0.95
+    ],
+    "temperature": [
+      -0.25,
+      0.25
+    ],
+    "humidity": [
+      -2.0,
+      0.0
+    ],
+    "aero:cave_biome/selector_a": [
+      -10.0,
+      -0.21209
+    ],
+    "aero:cave_biome/selector_b": [
+      -0.20593,
+      0.20584
+    ]
+  }
+}

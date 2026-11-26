@@ -1,0 +1,38 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "galosphere"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "tectonic"
+    }
+  ],
+  "type": "lithostitched:force_placement",
+  "dimension": "minecraft:overworld",
+  "priority": 184,
+  "biome": "galosphere:pink_salt_caves",
+  "parameters": {
+    "depth": [
+      0.95,
+      1.3
+    ],
+    "temperature": [
+      -0.25,
+      0.25
+    ],
+    "humidity": [
+      0.0,
+      2.0
+    ],
+    "aero:cave_biome/selector_a": [
+      0.21355,
+      10.0
+    ],
+    "aero:cave_biome/selector_b": [
+      0.20584,
+      10.0
+    ]
+  }
+}

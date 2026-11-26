@@ -1,0 +1,7 @@
+#The default difficulty selected for newly created worlds.
+#Allowed Values: PEACEFUL, EASY, NORMAL, HARD
+defaultDifficulty = "NORMAL"
+#Resource pack IDs to have enabled by default on the first run.
+defaultResourcePacks = ["vanilla", "mod_resources", "file/Aero Sky Layers", "fabric", "moonlight:merged_pack", "netherexp:jne_retextures", "mod/culturaldelights:resourcepacks/supplementaries", "mod/sound_physics_remastered:resourcepacks/amplified_aeronautics_propellers", "mod/sound_physics_remastered:resourcepacks/create_train_long_range", "file/Fencier Fences - RC1.3.zip", "file/Fluid & Foolish 1.0.1.zip", "file/ImmersiveResprites-1.1.zip", "file/VARIATED BLOCK.zip", "file/crops-3d(2).zip", "file/REVIVED_Farmer's Delight_crops_3D_R1.5.2-universal.zip", "file/§6Immersive§8_§6Interfaces§8.zip", "file/§6Immersive_Interfaces_Modded.zip"]
+#Set to true if the difficulty for new world's should be locked to the specific default. This cannot be unlocked by players without external tools! Probably a bad idea. I don't recommend. Why am I adding this option?
+lockDifficulty = false

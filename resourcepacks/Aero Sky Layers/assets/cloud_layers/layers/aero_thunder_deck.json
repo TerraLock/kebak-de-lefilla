@@ -1,0 +1,7 @@
+{
+  "height": 215,
+  "scale": 12,
+  "velocity": [-2.0, 0.7],
+  "color": [0.40, 0.42, 0.47, 0.97],
+  "thickness": { "texture": "cloud_layers:textures/thickness/new_vanilla.png", "multiply": [14, 0, 0, 0], "add": 6 }
+}

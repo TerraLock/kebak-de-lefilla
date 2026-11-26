@@ -1,0 +1,341 @@
+feature   caverns_and_chasms:false_hope                           0..256 -> -32..256 x1.12
+feature   caverns_and_chasms:ore_fragile_stone                    -64..64 -> -128..64 x1.50
+feature   caverns_and_chasms:ore_fragile_stone_buried             -64..64 -> -128..64 x1.50
+feature   caverns_and_chasms:ore_gold_and_silver_lower            -64..-48 -> -128..-104 x1.50
+feature   caverns_and_chasms:ore_rhyolite                         -64..32 -> -192..16 x2.17
+feature   caverns_and_chasms:ore_rocky_dirt                       0..160 -> -32..160 x1.20
+feature   caverns_and_chasms:ore_schist                           0..8 -> -32..-20 x1.50
+feature   caverns_and_chasms:ore_silver_buried_with_gold          -64..32 -> -128..16 x1.50
+feature   caverns_and_chasms:ore_silver_extra                     32..256 -> 16..256
+feature   caverns_and_chasms:ore_spinel                           -32..64 -> -80..64 x1.50
+feature   caverns_and_chasms:ore_spinel_buried                    -16..48 -> -56..40 x1.50
+feature   caverns_and_chasms:ore_tin                              -16..48 -> -56..40 x1.50 (count not scaled)
+feature   caverns_and_chasms:patch_cave_growths_deep              -64..172 -> -128..172 x1.27 (count not scaled)
+feature   create:striated_ores_overworld                          -30..70 -> -77..70 x1.47
+feature   create:zinc_ore                                         -63..70 -> -126..70 x1.48
+feature   createpropulsion:ore_platinum                           -144..16 -> -248..-8 x1.50
+feature   createpropulsion:ore_platinum_buried                    -144..16 -> -248..-8 x1.50
+feature   createpropulsion:ore_platinum_large                     -144..16 -> -248..-8 x1.50
+feature   createpropulsion:ore_platinum_medium                    -64..-4 -> -128..-38 x1.50
+feature   culturaldelights:salt_placed                            -64..319 -> -192..319 x1.33
+feature   darkerdepths:amber                                      -64..256 -> -192..256 x1.40
+feature   darkerdepths:arid_boulder                               -64..256 -> -192..256 x1.40 (count split, >256)
+feature   darkerdepths:arid_vegetation                            -64..256 -> -192..256 x1.40
+feature   darkerdepths:catacombs_lava_lining                      -63..-1 -> -126..-33 x1.50
+feature   darkerdepths:crystal_husk_ore                           -64..256 -> -192..256 x1.40
+feature   darkerdepths:darkslate_vegetation                       -64..256 -> -192..256 x1.40
+feature   darkerdepths:glimmering_vines                           -64..256 -> -192..256 x1.40 (count split, >256)
+feature   darkerdepths:grime_surface                              -64..256 -> -192..256 x1.40
+feature   darkerdepths:huge_glowshroom                            -64..256 -> -192..256 x1.40
+feature   darkerdepths:large_molten_pillar                        -64..256 -> -192..256 x1.40
+feature   darkerdepths:magma_disk                                 -64..256 -> -192..256 x1.40
+feature   darkerdepths:molten_cavern_petrified_roots              -64..256 -> -192..256 x1.40 (count split, >256)
+feature   darkerdepths:molten_pool                                -64..256 -> -192..256 x1.40
+feature   darkerdepths:molten_spring                              -64..287 -> -192..287 x1.36
+feature   darkerdepths:petrified_branch                           -64..256 -> -192..256 x1.40
+feature   darkerdepths:sandy_catacombs_petrified_roots            -64..256 -> -192..256 x1.40 (count split, >256)
+feature   darkerdepths:scorched_remains_pile                      -64..256 -> -192..256 x1.40
+feature   darkerdepths:scorcher_placer                            -64..256 -> -192..256 x1.40
+feature   expandeddelight:salt_ore                                -20..60 -> -62..58 x1.50
+feature   galosphere:allurite_ceiling_crystals                    -64..256 -> -192..256 x1.40 (count split, >256)
+feature   galosphere:allurite_floor_crystals                      -64..256 -> -192..256 x1.40 (count split, >256)
+feature   galosphere:bowl_lichen                                  -64..256 -> -192..256 x1.40
+feature   galosphere:gravel_patch                                 -64..256 -> -192..256 x1.40
+feature   galosphere:large_ceiling_allurite_crystals              -64..256 -> -192..256 x1.40
+feature   galosphere:large_ceiling_lumiere_crystals               -64..256 -> -192..256 x1.40
+feature   galosphere:large_floor_allurite_crystals                -64..256 -> -192..256 x1.40
+feature   galosphere:large_floor_lumiere_crystals                 -64..256 -> -192..256 x1.40
+feature   galosphere:lichen_caves_vegetation                      -64..256 -> -192..256 x1.40
+feature   galosphere:lichen_cordyceps_column                      -64..256 -> -192..256 x1.40 (count not scaled)
+feature   galosphere:lumiere_ceiling_crystals                     -64..256 -> -192..256 x1.40 (count split, >256)
+feature   galosphere:lumiere_floor_crystals                       -64..256 -> -192..256 x1.40 (count split, >256)
+feature   galosphere:oasis                                        -64..256 -> -192..256 x1.40
+feature   galosphere:ore_silver_large                             -16..112 -> -56..112 x1.31
+feature   galosphere:ore_silver_small                             -64..48 -> -192..40 x2.07
+feature   galosphere:pink_salt_noise_ceiling_patch                -64..256 -> -192..256 x1.40
+feature   galosphere:pink_salt_noise_ground_patch                 -64..256 -> -192..256 x1.40
+feature   galosphere:pink_salt_straw_ceiling_patch                -64..256 -> -192..256 x1.40 (count split, >256)
+feature   galosphere:pink_salt_straw_floor_patch                  -64..256 -> -192..256 x1.40 (count split, >256)
+feature   minecraft:amethyst_geode                                -50..120 -> -107..120 x1.34
+feature   minecraft:blue_ice                                      30..61 -> 13..60 x1.50
+feature   minecraft:cave_vines                                    -64..256 -> -192..256 x1.40 (count split, >256)
+feature   minecraft:classic_vines_cave_feature                    -64..256 -> -192..256 x1.40 (count split, >256)
+feature   minecraft:dripstone_cluster                             -64..256 -> -192..256 x1.40
+feature   minecraft:fossil_lower                                  -64..-8 -> -192..-44 x2.64
+feature   minecraft:fossil_upper                                  0..319 -> -32..319 x1.10
+feature   minecraft:glow_lichen                                   -64..256 -> -192..256 x1.40
+feature   minecraft:lake_lava_underground                         0..319 -> -32..319 x1.10
+feature   minecraft:large_dripstone                               -64..256 -> -192..256 x1.40
+feature   minecraft:lush_caves_ceiling_vegetation                 -64..256 -> -192..256 x1.40
+feature   minecraft:lush_caves_clay                               -64..256 -> -192..256 x1.40
+feature   minecraft:lush_caves_vegetation                         -64..256 -> -192..256 x1.40
+feature   minecraft:monster_room                                  0..319 -> -32..319 x1.10
+feature   minecraft:monster_room_deep                             -58..-1 -> -186..-33 x2.68
+feature   minecraft:ore_clay                                      -64..256 -> -192..256 x1.40
+feature   minecraft:ore_coal_lower                                0..192 -> -32..192 x1.17
+feature   minecraft:ore_copper                                    -16..112 -> -56..112 x1.31
+feature   minecraft:ore_copper_large                              -16..112 -> -56..112 x1.31
+feature   minecraft:ore_diamond                                   -144..16 -> -248..-8 x1.50
+feature   minecraft:ore_diamond_buried                            -144..16 -> -248..-8 x1.50
+feature   minecraft:ore_diamond_large                             -144..16 -> -248..-8 x1.50
+feature   minecraft:ore_diamond_medium                            -64..-4 -> -128..-38 x1.50
+feature   minecraft:ore_dirt                                      0..160 -> -32..160 x1.20
+feature   minecraft:ore_emerald                                   -16..480 -> -56..480 x1.12
+feature   minecraft:ore_gold                                      -64..32 -> -128..16 x1.50
+feature   minecraft:ore_gold_extra                                32..256 -> 16..256
+feature   minecraft:ore_gold_lower                                -64..-48 -> -128..-104 x1.50
+feature   minecraft:ore_gravel                                    -64..319 -> -192..319 x1.33
+feature   minecraft:ore_infested                                  -64..63 -> -192..63 x2.00
+feature   minecraft:ore_iron_middle                               -24..56 -> -68..52 x1.50
+feature   minecraft:ore_iron_small                                -64..72 -> -192..72 x1.94
+feature   minecraft:ore_lapis                                     -32..32 -> -80..16 x1.50
+feature   minecraft:ore_lapis_buried                              -64..64 -> -192..64 x2.00
+feature   minecraft:ore_redstone                                  -64..15 -> -192..-9 x2.31
+feature   minecraft:ore_redstone_lower                            -96..-32 -> -176..-80 x1.50
+feature   minecraft:ore_tuff                                      -64..0 -> -192..-32 x2.50
+feature   minecraft:pointed_dripstone                             -64..256 -> -192..256 x1.40 (count split, >256)
+feature   minecraft:rooted_azalea_tree                            -64..256 -> -192..256 x1.40
+feature   minecraft:sculk_patch_deep_dark                         -64..256 -> -192..256 x1.40 (count split, >256)
+feature   minecraft:sculk_vein                                    -64..256 -> -192..256 x1.40 (count split, >256)
+feature   minecraft:spore_blossom                                 -64..256 -> -192..256 x1.40
+feature   minecraft:spring_lava                                   -64..311 -> -192..311 x1.34
+feature   minecraft:spring_water                                  -64..192 -> -192..192 x1.50
+feature   minecraft:underwater_magma                              -64..256 -> -192..256 x1.40
+feature   quark:glow_shrooms                                      -64..256 -> -192..256 x1.40
+feature   quark:glow_shrooms_extras                               -64..256 -> -192..256 x1.40 (count split, >256)
+feature   quark:ore_lapis_extra                                   -64..0 -> -128..-32 x1.50
+feature   supplementaries:cave_urns                               -48..32 -> -104..16 x1.50
+feature   supplementaries:shore_barnacles                         60..63 -> 58..63 x1.50
+feature   supplementaries:wild_flax                               -35..56 -> -84..52 x1.50
+feature   terralith:alpha/clay_patch                              57..62 -> 54..61 x1.50
+feature   terralith:alpha/sand_beaches                            50..61 -> 43..60 x1.50
+feature   terralith:canyon/sandstone/sandstone                    62..270 -> 61..270
+feature   terralith:cave/frostfire/columns                        -64..30 -> -192..13 x2.18
+feature   terralith:cave/frostfire/frostfire_ceiling              -64..30 -> -192..13 x2.18
+feature   terralith:cave/frostfire/frostfire_patch                -64..30 -> -192..13 x2.18
+feature   terralith:cave/frostfire/lava_remover                   -64..30 -> -192..13 x2.18
+feature   terralith:cave/frostfire/replacer                       -64..30 -> -192..13 x2.18 (count split, >256)
+feature   terralith:cave/frostfire/sculk_patch                    -64..30 -> -192..13 x2.18 (count split, >256)
+feature   terralith:cave/fuck_art_just_need_performance/andesite  0..256 -> -32..256 x1.12
+feature   terralith:cave/fuck_art_just_need_performance/blackstone -32..0 -> -80..-32 x1.50 (count split, >256)
+feature   terralith:cave/fuck_art_just_need_performance/diorite   -64..256 -> -192..256 x1.40
+feature   terralith:cave/fuck_art_just_need_performance/granite   -64..256 -> -192..256 x1.40
+feature   terralith:cave/fuck_art_just_need_performance/split/andesite -64..256 -> -192..256 x1.40
+feature   terralith:cave/fuck_art_just_need_performance/split/diorite -64..256 -> -192..256 x1.40
+feature   terralith:cave/fuck_art_just_need_performance/split/granite -64..256 -> -192..256 x1.40
+feature   terralith:cave/fuck_art_just_need_performance/tuff      -32..0 -> -80..-32 x1.50 (count split, >256)
+feature   terralith:cave/fungal/ceiling                           -64..256 -> -192..256 x1.40
+feature   terralith:cave/fungal/floor                             -64..256 -> -192..256 x1.40
+feature   terralith:cave/fungal/hanging_roots_cluster             -64..255 -> -128..255 x1.20 (count split, >256)
+feature   terralith:cave/fungal/hanging_roots_single              -64..255 -> -128..255 x1.20 (count split, >256)
+feature   terralith:cave/fungal/lichen_patch                      -64..128 -> -128..128 x1.33
+feature   terralith:cave/fungal/ore_coal_extra                    -32..160 -> -80..160 x1.25
+feature   terralith:cave/fungal/vines                             -64..255 -> -128..255 x1.20
+feature   terralith:cave/generic/ds_reducer                       0..200 -> -32..200 x1.16
+feature   terralith:cave/generic/ds_reducer_small                 0..200 -> -32..200 x1.16
+feature   terralith:cave/generic/noise_reducer                    0..200 -> -32..200 x1.16
+feature   terralith:cave/generic/noise_reducer_small              0..200 -> -32..200 x1.16
+feature   terralith:cave/infested/cobble_vein                     -64..192 -> -128..192 x1.25 (count split, >256)
+feature   terralith:cave/infested/dungeon_extra                   -58..128 -> -186..128 x1.69
+feature   terralith:cave/infested/hanging_cobwebs                 -53..192 -> -111..192 x1.24 (count split, >256)
+feature   terralith:cave/jungle/ceiling_moss                      -64..256 -> -192..256 x1.40
+feature   terralith:cave/jungle/mud_water                         -64..256 -> -192..256 x1.40
+feature   terralith:cave/mantle/basalt_strip                      -64..64 -> -192..64 x2.00 (count split, >256)
+feature   terralith:cave/mantle/lava_drip                         -64..64 -> -192..64 x2.00
+feature   terralith:cave/mantle/magma_strip                       -64..64 -> -192..64 x2.00 (count split, >256)
+feature   terralith:cave/stone/andesite_boulders                  -64..96 -> -128..96 x1.40
+feature   terralith:cave/stone/diorite_clearing                   -64..128 -> -128..128 x1.33
+feature   terralith:cave/stone/granite_roots                      -64..112 -> -128..112 x1.36
+feature   terralith:cave/thermal/surface/ceiling                  -64..192 -> -128..192 x1.25 (count split, >256)
+feature   terralith:cave/thermal/surface/ceiling_low              -64..192 -> -128..192 x1.25 (count split, >256)
+feature   terralith:cave/thermal/underwater_magma                 -64..256 -> -192..256 x1.40 (count split, >256)
+feature   terralith:cliffs/basalt/basaltifier                     62..164 -> 61..164
+feature   terralith:cliffs/frozen/blue_ice                        62..270 -> 61..270
+feature   terralith:cliffs/frozen/icicle                          62..180 -> 61..180
+feature   terralith:cliffs/frozen/puddle                          62..180 -> 61..180
+feature   terralith:cliffs/granite/granitifier                    62..164 -> 61..164
+feature   terralith:cliffs/white/calcitifier                      62..164 -> 61..164
+feature   terralith:dark/disk_podzol                              62..62 -> 61..61
+feature   terralith:dark/lichen_log                               62..200 -> 61..200
+feature   terralith:desert/sandstone                              62..270 -> 61..270
+feature   terralith:flower/blue/blue_disk                         62..62 -> 61..61
+feature   terralith:flower/blue/nylium_disk                       62..62 -> 61..61
+feature   terralith:forest/flower/beaches                         62..62 -> 61..61
+feature   terralith:sakura/clay_beaches                           61..61 -> 60..60
+feature   terralith:shrubland/disk_podzol                         62..62 -> 61..61
+feature   terralith:skylands/spring_water                         -64..320 -> -192..320 x1.33
+feature   terralith:swamp/orchid/dripleaf                         62..62 -> 61..61
+feature   terralith:swamp/vanilla/water_decor                     62..62 -> 61..61
+feature   terralith:yellowstone/acid_basalt                       61..63 -> 60..63 x1.50 (count split, >256)
+feature   terralith:yellowstone/acid_black                        61..63 -> 60..63 x1.50 (count split, >256)
+feature   terralith:yellowstone/acid_gravel                       61..63 -> 60..63 x1.50 (count split, >256)
+feature   terralith:yellowstone/acid_orange                       61..63 -> 60..63 x1.50
+feature   terralith:yellowstone/acid_yellow                       62..62 -> 61..61
+feature   tfmg:bauxite                                            -30..70 -> -77..70 x1.47
+feature   tfmg:fireclay                                           -30..70 -> -77..70 x1.47
+feature   tfmg:galena                                             -30..70 -> -77..70 x1.47
+feature   tfmg:lead_ore                                           -15..80 -> -54..80 x1.42
+feature   tfmg:lignite                                            -30..70 -> -77..70 x1.47
+feature   tfmg:lithium_ore                                        -63..-5 -> -126..-39 x1.50
+feature   tfmg:nickel_ore                                         -63..20 -> -126..-2 x1.50
+feature   upgrade_aquatic:ore_ammonite                            0..73 -> -32..73 x1.44
+feature   yungscavebiomes:frosted_caves/frost_lily                -64..256 -> -192..256 x1.40
+feature   yungscavebiomes:frosted_caves/ice_patch                 -64..256 -> -192..256 x1.40 (count split, >256)
+feature   yungscavebiomes:frosted_caves/ice_patch_ceiling         -64..256 -> -192..256 x1.40 (count split, >256)
+feature   yungscavebiomes:frosted_caves/ice_sheet_replace         -64..256 -> -192..256 x1.40 (count split, >256)
+feature   yungscavebiomes:frosted_caves/ice_sheet_replace_2       -64..256 -> -192..256 x1.40 (count split, >256)
+feature   yungscavebiomes:frosted_caves/icicles                   -64..256 -> -192..256 x1.40 (count split, >256)
+feature   yungscavebiomes:frosted_caves/large_icicle              -64..256 -> -192..256 x1.40
+feature   yungscavebiomes:frosted_caves/large_icicle_tilted       -64..256 -> -192..256 x1.40
+feature   yungscavebiomes:frosted_caves/small_icicle              -64..256 -> -192..256 x1.40
+feature   yungscavebiomes:frosted_caves/water_surface_ice_fragment -64..256 -> -192..256 x1.40 (count split, >256)
+feature   yungscavebiomes:frosted_caves/water_surface_ice_fragment_2 -64..256 -> -192..256 x1.40 (count split, >256)
+feature   yungscavebiomes:lost_caves/brittle_sandstone_ceiling_patch -64..256 -> -192..256 x1.40
+feature   yungscavebiomes:lost_caves/cactus_patch                 -64..256 -> -192..256 x1.40
+feature   yungscavebiomes:lost_caves/dead_bush_spread             -64..256 -> -192..256 x1.40
+feature   yungscavebiomes:lost_caves/layered_sandstone_pillar     -64..256 -> -192..256 x1.40
+feature   yungscavebiomes:lost_caves/lost_caves_surface_replace   -64..256 -> -192..256 x1.40 (count split, >256)
+feature   yungscavebiomes:lost_caves/lost_caves_surface_replace_2 -64..256 -> -192..256 x1.40 (count split, >256)
+feature   yungscavebiomes:lost_caves/prickly_peach_cactus_patch   -64..256 -> -192..256 x1.40
+feature   yungscavebiomes:lost_caves/prickly_vines                -64..256 -> -192..256 x1.40
+feature   yungscavebiomes:lost_caves/sandstone_glow_lichen        -64..256 -> -192..256 x1.40
+sky       create_sky_village:highwind_village                     start -> 420..470
+sky       create_sky_village:skyvillage                           start -> 420..470
+sky set   create_sky_village:highwind_village                     spacing 96->240 separation 32->80
+sky set   create_sky_village:skyvillage                           spacing 128->320 separation 32->80
+structure betterdungeons:skeleton_dungeon                         -50..-30 -> -107..-77
+structure betterdungeons:small_dungeon                            -50..50 -> -107..43
+structure betterdungeons:zombie_dungeon                           50..51 -> 43..45
+structure betterstrongholds:stronghold                            -30..11 -> -77..-15 max_y 60->58
+structure caverns_and_chasms:forge                                -48..16 -> -104..-8
+structure caverns_and_chasms:vault                                -60..-16 -> -122..-56
+structure galosphere:forgotten_ruins                              3..3 -> -27..-27
+structure minecraft:ancient_city                                  -27..-27 -> -72..-72
+structure minecraft:trial_chambers                                -40..-20 -> -92..-62
+structure terralith:underground/frosted_dungeon                   -40..40 -> -92..28
+structure terralith:underground/giant_bee_hive                    -40..40 -> -92..28
+structure terralith:underground/mining_outpost                    -40..40 -> -92..28
+structure terralith:underground/oak_cabin                         -40..40 -> -92..28
+structure terralith:underground/old_refinery                      -40..40 -> -92..28
+structure terralith:underground/sunken_tower                      -40..40 -> -92..28
+structure terralith:underground_cabin                             -40..40 -> -92..28
+
+not remapped (not listed by any Overworld biome):
+  caverns_and_chasms:cave_growth_grove
+  caverns_and_chasms:ore_gold_buried_with_silver
+  caverns_and_chasms:ore_silver_soul
+  create:striated_ores_nether
+  createmetallurgy:wolframite_ore
+  darkerdepths:arid_surface
+  darkerdepths:catacombs_layered_placement
+  darkerdepths:catacombs_sand_placement
+  darkerdepths:darkslate_placement
+  darkerdepths:darkslate_surface
+  darkerdepths:duskrock_ore
+  darkerdepths:duskrock_stripe
+  darkerdepths:glowshroom_patch
+  darkerdepths:magma_ore
+  kaleidoscope_dim_wine:crimson_grapevine_lower
+  kaleidoscope_dim_wine:dreamfruit_vine_end_stone
+  kaleidoscope_dim_wine:warped_grapevine_lower
+  kaleidoscope_end:dream_berry
+  kaleidoscope_end:suspicious_end_stone_buried
+  kaleidoscope_end:suspicious_end_stone_large
+  kaleidoscope_end:suspicious_end_stone_small
+  kaleidoscope_nether:poisonous_fruit
+  kaleidoscope_nether:twisting_cave_vines
+  kaleidoscope_nether:weeping_cave_vines
+  minecraft:spring_lava_frozen
+  netherdepthsupgrade:crimson_kelp_feature_common_placed
+  netherdepthsupgrade:crimson_kelp_feature_placed
+  netherdepthsupgrade:crimson_seagrass_mid_feature_placed
+  netherdepthsupgrade:crimson_seagrass_short_feature_placed
+  netherdepthsupgrade:crimson_seagrass_slightly_less_short_feature_placed
+  netherdepthsupgrade:crimson_seagrass_tall_feature_common_placed
+  netherdepthsupgrade:crimson_seagrass_tall_feature_placed
+  netherdepthsupgrade:vent_feature_placed
+  netherdepthsupgrade:warped_kelp_feature_common_placed
+  netherdepthsupgrade:warped_kelp_feature_placed
+  netherdepthsupgrade:warped_seagrass_mid_feature_placed
+  netherdepthsupgrade:warped_seagrass_short_feature_placed
+  netherdepthsupgrade:warped_seagrass_slightly_less_short_feature_placed
+  netherdepthsupgrade:warped_seagrass_tall_feature_common_placed
+  netherdepthsupgrade:warped_seagrass_tall_feature_placed
+  netherexp:basalt_deltas/basaltic_geyser
+  netherexp:blotted_netherrack
+  netherexp:crimson_forest/crimson_sporeshroom
+  netherexp:crimson_forest/weeping_ivy
+  netherexp:damp_siltmarram
+  netherexp:dry_siltmarram
+  netherexp:mod_compat/gardens_of_the_dead/blight_swirls_ceiling
+  netherexp:mod_compat/gardens_of_the_dead/blight_swirls_floor
+  netherexp:moist_siltmarram
+  netherexp:nether_wastes/quartz_crystal
+  netherexp:nether_wastes/quartz_crystal_extra
+  netherexp:netherrack_speleothem
+  netherexp:pyroclast_crusts
+  netherexp:pyroclast_crusts_small
+  netherexp:silt_flint_ore
+  netherexp:silt_replacement
+  netherexp:soul_sand_valley/black_ice_glaciers/black_ice_cluster
+  netherexp:soul_sand_valley/black_ice_glaciers/black_ice_streak
+  netherexp:soul_sand_valley/black_ice_glaciers/black_ice_surface
+  netherexp:soul_sand_valley/black_ice_glaciers/freeze_lava
+  netherexp:soul_sand_valley/black_ice_glaciers/pale_soul_slate
+  netherexp:soul_sand_valley/black_ice_glaciers/pale_soul_slate_surface
+  netherexp:soul_sand_valley/black_ice_glaciers/thin_black_ice
+  netherexp:soul_sand_valley/bone_pike
+  netherexp:soul_sand_valley/ecto_soul_sand
+  netherexp:soul_sand_valley/ectoplasm_lake
+  netherexp:soul_sand_valley/fossil_fuel_ore
+  netherexp:soul_sand_valley/fossil_ore
+  netherexp:soul_sand_valley/hanging_mound
+  netherexp:soul_sand_valley/pale_soul_slate
+  netherexp:soul_sand_valley/pale_soul_slate_surface
+  netherexp:soul_sand_valley/soul_swirls_ceiling
+  netherexp:soul_sand_valley/soul_swirls_floor
+  netherexp:warped_forest/twisting_ivy
+  netherexp:warped_forest/warped_sporeshroom
+  nullscape:boneyard/fire
+  nullscape:boneyard/pillars
+  nullscape:boneyard/smooth_basalt
+  nullscape:boneyard/smooth_basalt_dx
+  nullscape:boneyard/smooth_basalt_more
+  nullscape:boneyard/soul_sand
+  nullscape:float/end_island_decorated
+  nullscape:float/end_island_decorated_void
+  nullscape:float/inv
+  nullscape:glowstone/patch_start
+  nullscape:glowstone/roots_first
+  nullscape:glowstone/tree_d1
+  nullscape:infested/sculk
+  nullscape:infested/tendril
+  nullscape:mountain/mountain
+  nullscape:mountain/mountain_inv
+  nullscape:mountain/mountain_inv_less
+  nullscape:mountain/mountain_less
+  nullscape:mountain/pillar
+  nullscape:mountain/pillar_down
+  nullscape:rift/blackstone
+  nullscape:rift/cracks_crying
+  nullscape:rift/cracks_start
+  nullscape:shadow/amethyst1
+  nullscape:shadow/amethyst2
+  nullscape:shadow/amethyst3
+  nullscape:shadow/amethyst4
+  nullscape:shadow/coral_ceiling
+  nullscape:shadow/coral_surface
+  nullscape:shadow/pillar_down
+  nullscape:tar/cracks_start
+  nullscape:tar/tar_pits
+  supplementaries:basalt_ash
+  tfmg:nether_fireclay
+  tfmg:sulfur
+  unusualend:purpur_island_1_feature
+  unusualend:raw_purpur_feature
+  unusualend:warped_bubbles_feature
+  unusualend:warped_citrine_isles
+  unusualend:warped_isles
+  unusualend:warped_rock_1_feature
+  unusualend:warped_rocks
+  unusualend:warped_vegetation

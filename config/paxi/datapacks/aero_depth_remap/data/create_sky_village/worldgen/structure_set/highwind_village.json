@@ -1,0 +1,20 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create_sky_village"
+    }
+  ],
+  "structures": [
+    {
+      "structure": "create_sky_village:highwind_village",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 240,
+    "separation": 80,
+    "salt": 182451771
+  }
+}

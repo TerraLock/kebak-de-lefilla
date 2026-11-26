@@ -1,0 +1,13 @@
+name = "Petrol's Parts"
+filename = "petrolsparts-1.21.1-1.3.8.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/AN0CZD9P/versions/SDyiqlIO/petrolsparts-1.21.1-1.3.8.jar"
+hash-format = "sha512"
+hash = "370561d88eb8f1f6bfc6e660e8e5256f7029bc4f5a00b45b3bc13aa79c194d68d9b10f9c69561b68f5b1794f7383ffec8b48e9a187c474c95f8f17b499c2890a"
+
+[update]
+[update.modrinth]
+mod-id = "AN0CZD9P"
+version = "SDyiqlIO"

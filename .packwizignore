@@ -1,0 +1,7 @@
+# not part of the installed pack
+.mods-state.json
+README.md
+LICENSE
+.gitignore
+prism-instance/
+server/

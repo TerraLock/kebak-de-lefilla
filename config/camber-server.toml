@@ -1,0 +1,12 @@
+#Lateral impulse strength applied as sin(camber) * thrust * groundFriction while the wheel touches terrain.
+# Default: 0.5
+# Range: 0.0 ~ 5.0
+camberThrust = 0.5
+#Absolute clamp applied to the per-wheel camber angle, in degrees.
+# Default: 30
+# Range: 1 ~ 60
+maxCamberDegrees = 30
+#Degrees added or removed per Suspension Key use on a wheel mount.
+# Default: 0.5
+# Range: 0.1 ~ 5.0
+camberStepDegrees = 0.5

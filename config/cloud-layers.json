@@ -1,0 +1,59 @@
+{
+  "enableMod": true,
+  "heightOffset": 0,
+  "useWorldOffset": false,
+  "useWorldTime": true,
+  "renderDistance": 0,
+  "useVanillaFog": false,
+  "useCustomLayers": false,
+  "layers": [
+    {
+      "name": "Lower",
+      "seed": 11,
+      "height": 160,
+      "appearance": {
+        "thickness": 4,
+        "scale": 12,
+        "color": 16777215,
+        "opacity": 80,
+        "texture": "NEW"
+      },
+      "movement": {
+        "speed": 100,
+        "direction": "WEST",
+        "skyboxMode": false
+      },
+      "conditions": {
+        "clearWeather": true,
+        "rainyWeather": true,
+        "stormyWeather": true,
+        "startTime": 0,
+        "endTime": 24000
+      }
+    },
+    {
+      "name": "Upper",
+      "seed": 12,
+      "height": 256,
+      "appearance": {
+        "thickness": 0,
+        "scale": 8,
+        "color": 16777215,
+        "opacity": 60,
+        "texture": "OLD"
+      },
+      "movement": {
+        "speed": 80,
+        "direction": "NORTH",
+        "skyboxMode": false
+      },
+      "conditions": {
+        "clearWeather": true,
+        "rainyWeather": true,
+        "stormyWeather": true,
+        "startTime": 0,
+        "endTime": 24000
+      }
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+name = "KineticGrip"
+filename = "KineticGrip-1.21.1-1.0.5.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/6u6JD0DQ/versions/8cMJMOuM/KineticGrip-1.21.1-1.0.5.jar"
+hash-format = "sha512"
+hash = "2a7b40f9f3e385b9aecf306896c88d3ab82a7d9e2bdb577ae912774d2f201a1deb5f96ed3676271306a7be4c7329267e2076c27be7e0be8ba7700b2ea5d8bd6f"
+
+[update]
+[update.modrinth]
+mod-id = "6u6JD0DQ"
+version = "8cMJMOuM"

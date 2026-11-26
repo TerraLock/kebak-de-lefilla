@@ -1,0 +1,13 @@
+name = "REVIVED_Farmer's Delight_crops_3D_R1.5.2-universal.zip"
+filename = "REVIVED_Farmer's Delight_crops_3D_R1.5.2-universal.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/TVo0lkHH/versions/MRqlarho/REVIVED_Farmer%27s%20Delight_crops_3D_R1.5.2-universal.zip"
+hash-format = "sha512"
+hash = "20291fa53a55849f432977fec31970b9e53c8c78ac60a6d39b9a8fa40e3c297176ef025f65f1544218775779b6fab51fd780ace4826c6256cd2be9e4e40c082f"
+
+[update]
+[update.modrinth]
+mod-id = "TVo0lkHH"
+version = "MRqlarho"
