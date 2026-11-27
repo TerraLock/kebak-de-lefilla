@@ -1260,7 +1260,7 @@ preserve = true
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "e8cb5bf54162f3a8c1a64ae783dcda305a378d6794d71068d0cef36edfbef797"
+hash = "27cb89caa0fa6329669184c9998c59220d5eb139dbbf620cf385a6014b2537d7"
 
 [[files]]
 file = "config/fallingleaves-client.toml"
@@ -1480,7 +1480,7 @@ hash = "4d3264b58c502afaeca3f44e8d2db0843c54b8ba957afd21a2d450fe10dafefb"
 
 [[files]]
 file = "config/iris.properties"
-hash = "e2e85fba82e4b9cf1541ed47221861e8a59d94de25f78d3372ab83d15150dd42"
+hash = "df1748c96a77163f72dcd502e015eb9e445604e9b06e3f3c97740b80591ec607"
 preserve = true
 
 [[files]]
@@ -1794,7 +1794,7 @@ hash = "9f3b2262b3f90498e90aa61240c4e7a6d03b32f2350067212fb8b969ba5d7950"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "4bb8f6d558920c3af1374c9adca2be9485efdd363c45357d4d92a8b40912a8a5"
+hash = "d7439d993a15389d48290acf856d28eff638e2824dbd41b686c3b2cdaa072d11"
 
 [[files]]
 file = "config/particlerain/config.json"
@@ -6109,11 +6109,6 @@ metafile = true
 [[files]]
 file = "resourcepacks/crops-3d(2).pw.toml"
 hash = "4e28eb73e39b69758a470c576d645c960e709cc596c7b74a159b944b629dfbd1"
-metafile = true
-
-[[files]]
-file = "resourcepacks/fencier-fences.pw.toml"
-hash = "1f27401518d81430954b2dabf7f637276ec91be4124909bba3c24ec77284fa77"
 metafile = true
 
 [[files]]
