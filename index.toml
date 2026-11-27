@@ -26,7 +26,7 @@ hash = "977d761dc879ffdf88dba4b26e50d850b7def3d55ff0ef0d1aec9247e09a875b"
 
 [[files]]
 file = "config/accessories.json5"
-hash = "b9f6a56acdb02a286de9aa06578dac5485656fb476adc819fb3c63dd49ad0785"
+hash = "9ca14293603e6665aaa4605ec208e63f5ea139340495f8e793aa04cad8417df8"
 
 [[files]]
 file = "config/accessories_compat.json5"
@@ -1252,7 +1252,7 @@ preserve = true
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "113d7ce188f810e6859e0b30300c2a34d4eb60d2e1ad1de3681947fda2ba2f40"
+hash = "8b77a6b51211aae0713ca45205b90944bffd22bb69652b864171abd420b8b823"
 
 [[files]]
 file = "config/fallingleaves-client.toml"
@@ -1472,7 +1472,7 @@ hash = "4d3264b58c502afaeca3f44e8d2db0843c54b8ba957afd21a2d450fe10dafefb"
 
 [[files]]
 file = "config/iris.properties"
-hash = "47fe065233b7fe2220e5d1fcc10a36d2677536a1db24901d60b6b03226163ebe"
+hash = "9378aa048471d22f91d0e40cc8fde1394f5f7e5a81ac80187104086b74360ffd"
 preserve = true
 
 [[files]]
@@ -1786,7 +1786,7 @@ hash = "9f3b2262b3f90498e90aa61240c4e7a6d03b32f2350067212fb8b969ba5d7950"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "54884b6baeef1a6a87b43e8e39226de0e9622387072390b2812c5b642a53479c"
+hash = "7b4171a8161a6dc74571e95bdc616fca6579b0b970cad5d41ee46936711176bb"
 
 [[files]]
 file = "config/particlerain/config.json"
@@ -3470,7 +3470,7 @@ hash = "9148991f4ec6e759cf2b45ea60f02650959b8a3f6ed5b16522ed5ed63cfcf3ea"
 
 [[files]]
 file = "config/punchy_moves/camera.json"
-hash = "1004d403e93008ba7b7019de3bb8c7cd79a59c6e8cbd1f3535572573cfece00c"
+hash = "6c7c6423db73edce7846be29f8d69fe8432b2fc842e018b1820f81e73ba25c2f"
 
 [[files]]
 file = "config/punchy_moves/tutorial_seen_v1"
@@ -3478,7 +3478,7 @@ hash = "47a8dea66db04a6f2a18b6e27ef53a56f2122c0733e67f3908f1485fe1d4547f"
 
 [[files]]
 file = "config/quark-common.toml"
-hash = "9ffe1701f4bb26caaa395d6fa03b5ba852239e509a608a3b0edbb968312bdb4a"
+hash = "581e4e71f3c55d9cc8becd413aa49d8cbefd2ca92aa4e346a33ef758d56eaed9"
 
 [[files]]
 file = "config/quickskin-client.json"
@@ -4208,8 +4208,18 @@ file = "mods/aerosky-1.0.2.jar"
 hash = "b0cb46a9081598aacde78fd1d28a2f416b47d3ab536948c151735226ba15597a"
 
 [[files]]
+file = "mods/alexs-delight.pw.toml"
+hash = "516e0ce480882c6a73773d685dfc00b2228e1be6f2108488a614063d0dca261e"
+metafile = true
+
+[[files]]
 file = "mods/alexs-mobs-1.21.1.pw.toml"
 hash = "fb53bc6c0d543cd7e88a5faba1e3235dca6c556e0cf8c1a534bbdec581c3c2f8"
+metafile = true
+
+[[files]]
+file = "mods/alexs-mobs-naturalist-wild-threefold-compat.pw.toml"
+hash = "582689cff91e770ae93415d40e6bcf5d0b696b8ec198d87adbd52a8ca429ecf8"
 metafile = true
 
 [[files]]
@@ -4883,6 +4893,11 @@ hash = "12b8078013ad1f7dfb1498e5beae88569330f840b664783ea5b75c23d2d89c8f"
 metafile = true
 
 [[files]]
+file = "mods/distraction-free-recipes.pw.toml"
+hash = "820727a4852072ccad40e99d05fdab98d7d5b214ef2fa1b01fc102408b0d322c"
+metafile = true
+
+[[files]]
 file = "mods/do-a-barrel-roll.pw.toml"
 hash = "fe88386ca7a7c34be094f10e3a012810cec23f21b580dbc1c908cf95a17bf6f8"
 metafile = true
@@ -5313,33 +5328,8 @@ hash = "0bf08f8e608e27fcb8c7f198618e08e19dfa01602a892e8110ed04efeea23463"
 metafile = true
 
 [[files]]
-file = "mods/lets-do-brewery-farmcharm-compat.pw.toml"
-hash = "ab40d78ea7ea67a4d5af72a509680d50f0fee9492933969c97cebdb945c0d8b5"
-metafile = true
-
-[[files]]
-file = "mods/lets-do-farm-charm.pw.toml"
-hash = "5b2f7c2cc1486ae75c04fdf49ed07cb8b770a3307e7559de4b162b1861189cb5"
-metafile = true
-
-[[files]]
-file = "mods/lets-do-foundation.pw.toml"
-hash = "eede425f26764e520d80d6d76f132b450eab91b1c3ac642b62f2e613444a3818"
-metafile = true
-
-[[files]]
-file = "mods/lets-do-furniture.pw.toml"
-hash = "d59e92a3c0ffd24f5f9fcc6a7e3ebae18f7f9565173e56a27ed9ecd836206969"
-metafile = true
-
-[[files]]
 file = "mods/lets-do-herbalbrews.pw.toml"
 hash = "4b9615192f59c2c77291e11c1fba829d94866758816424c8c3ac072d89c875bc"
-metafile = true
-
-[[files]]
-file = "mods/lets-do-vinery.pw.toml"
-hash = "9ea5eb69af8278115237331a30c9692f338c614d4f09479581fc4eaf28312150"
 metafile = true
 
 [[files]]
@@ -5480,6 +5470,11 @@ metafile = true
 [[files]]
 file = "mods/my-nethers-delight.pw.toml"
 hash = "cf98a93ea429786de97d9d7b70c72468909e0b9d1799def65b7c29c419c8d362"
+metafile = true
+
+[[files]]
+file = "mods/naturalist-feast.pw.toml"
+hash = "f6b2bbca5fc6f9484e9808dc62855e626a80a9dcb4b16f974c00410959a6bc0b"
 metafile = true
 
 [[files]]
@@ -5790,11 +5785,6 @@ metafile = true
 [[files]]
 file = "mods/spark.pw.toml"
 hash = "593fa7b30ab016aa45be07bd6bef3a9f160ed0f24689850d60bf84995d69b843"
-metafile = true
-
-[[files]]
-file = "mods/spatial-gui.pw.toml"
-hash = "35387ff9fb05a2a735c72f0223d4569e10a8141ae1a9adeb3d13d7153c37ec4d"
 metafile = true
 
 [[files]]

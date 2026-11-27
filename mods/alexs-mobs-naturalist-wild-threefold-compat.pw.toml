@@ -1,0 +1,13 @@
+name = "Alex's Mobs + Naturalist: Wild Threefold Compat"
+filename = "wldthreefoldcompat-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "73808a54d2ef950f7fcbaea511ffb0e5a280a85f"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9446871
+project-id = 1784355
