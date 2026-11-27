@@ -826,6 +826,10 @@ file = "config/create_aeronautics_throwable_rope_connector-common.toml"
 hash = "54ae18b9c579b463b9ffefc0afbbeddfee0b05ca35b63c507d6b707b957dc497"
 
 [[files]]
+file = "config/create_aeronautics_toolgun-client.properties"
+hash = "4360b308211fceabf8eac4c944c887f43ddec13e0218db530891de8c2dc52fa9"
+
+[[files]]
 file = "config/create_aeronautics_toolgun-container.toml"
 hash = "2d359c3727fe82c97f7e6b7656e79ee3c9a82d6975758895746d6f295e225a05"
 
@@ -1103,15 +1107,19 @@ hash = "41d7916c57bb2d57b6cbf07609ad744edeec0d340f4b45735b36b6d1f33bc555"
 
 [[files]]
 file = "config/defaultoptions-common.toml"
-hash = "58baea4c7e7c57d15966213bc964634d6691bc3cfd6592679bf948acc2c2ef9e"
+hash = "b9dc06fef0359943bfcbe424ba167a00b2c34bf5a092ef918bfebcfa8b1109b1"
 
 [[files]]
 file = "config/defaultoptions/keybindings.txt"
-hash = "3990e34f55ec2b44631301946f57b1d0ba25c3e9fed0809397dbde6b04b3f175"
+hash = "a4cd42620c4ae87a244a1616b638dbd7bacc43571b53cde0b4fdfcf8339eb8e6"
 
 [[files]]
 file = "config/deployer-server.toml"
 hash = "9516e91a51a89d1e0d6c1f4d502833883332a040c153a51b12fe04dbdb7ca3ec"
+
+[[files]]
+file = "config/distraction_free_recipes-client.toml"
+hash = "2a0e761f7293d92e3700aad72acc63c00140c3bfc95ac305eba41cfec8197f2c"
 
 [[files]]
 file = "config/dnd_aero_compat-common.toml"
@@ -1195,11 +1203,11 @@ hash = "35ffac9cb8bde80d72fb78a6400a3d956d8368938e15010335807d9878243e6c"
 
 [[files]]
 file = "config/emf_compat.json"
-hash = "840e66ab53723e91c5d48bb2f8d495860a55e24364bace65b06d25a731097643"
+hash = "2be43d4275ee04c3158c0fdc71c0d4f51de3a1e9631163907a3d0985038ded2e"
 
 [[files]]
 file = "config/emi.css"
-hash = "b2fefce8b997851759990d1ec0c71d4be631e435857eb7b19516e4806986ac34"
+hash = "ef29ffa364bb9d68611e126c57a99c3a0aa29f3c080dd935ffbcd66cf17691e6"
 
 [[files]]
 file = "config/enchdesc.json"
@@ -1252,7 +1260,7 @@ preserve = true
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "8b77a6b51211aae0713ca45205b90944bffd22bb69652b864171abd420b8b823"
+hash = "e8cb5bf54162f3a8c1a64ae783dcda305a378d6794d71068d0cef36edfbef797"
 
 [[files]]
 file = "config/fallingleaves-client.toml"
@@ -1472,7 +1480,7 @@ hash = "4d3264b58c502afaeca3f44e8d2db0843c54b8ba957afd21a2d450fe10dafefb"
 
 [[files]]
 file = "config/iris.properties"
-hash = "9378aa048471d22f91d0e40cc8fde1394f5f7e5a81ac80187104086b74360ffd"
+hash = "e2e85fba82e4b9cf1541ed47221861e8a59d94de25f78d3372ab83d15150dd42"
 preserve = true
 
 [[files]]
@@ -1529,7 +1537,7 @@ hash = "c15495df1909c73a41302702013967183548f7683adc82fd84cec9afb5caede9"
 
 [[files]]
 file = "config/jei/client/recipe-category-sort-order.ini"
-hash = "9be0b3409196c5557ac3df038c1778694e4b79b626aff91fdbcef47e665116fc"
+hash = "c19f99576f3268e9a98ffe38ca5f319455430369343edef463656170b8f7360f"
 
 [[files]]
 file = "config/jei_ores-client.toml"
@@ -1786,7 +1794,7 @@ hash = "9f3b2262b3f90498e90aa61240c4e7a6d03b32f2350067212fb8b969ba5d7950"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "7b4171a8161a6dc74571e95bdc616fca6579b0b970cad5d41ee46936711176bb"
+hash = "4bb8f6d558920c3af1374c9adca2be9485efdd363c45357d4d92a8b40912a8a5"
 
 [[files]]
 file = "config/particlerain/config.json"
@@ -3470,7 +3478,7 @@ hash = "9148991f4ec6e759cf2b45ea60f02650959b8a3f6ed5b16522ed5ed63cfcf3ea"
 
 [[files]]
 file = "config/punchy_moves/camera.json"
-hash = "6c7c6423db73edce7846be29f8d69fe8432b2fc842e018b1820f81e73ba25c2f"
+hash = "1004d403e93008ba7b7019de3bb8c7cd79a59c6e8cbd1f3535572573cfece00c"
 
 [[files]]
 file = "config/punchy_moves/tutorial_seen_v1"
@@ -3872,7 +3880,7 @@ hash = "08206138751adcc41f8d72bf7a5969a48af6be26c123bf3322971fb5329cd4f3"
 
 [[files]]
 file = "config/submarine_hull.json"
-hash = "736201e722c2255c0eead435ffc3618fa907324e3624d6d54f42fb507606e54e"
+hash = "4c647252230d4f6ff49ede85d3933d57aac6a1f876b98528abfb1d9ad0c95d74"
 
 [[files]]
 file = "config/supplementaries-client.toml"
@@ -5588,6 +5596,11 @@ hash = "a52e2c964b9fdbeb21e7586d69e87eba54e84c28a9f801a0afef26f2226210a1"
 metafile = true
 
 [[files]]
+file = "mods/punchy-fpa.pw.toml"
+hash = "8a33559da1d1dd21462ed5e31e90116473fe61befbb5cd32f4df5890b21d0c0d"
+metafile = true
+
+[[files]]
 file = "mods/punchymoves.pw.toml"
 hash = "bcc5ff6119634786bf64fb36fa1866ba4a5e49236741c65e568299ce528354b1"
 metafile = true
@@ -5820,6 +5833,11 @@ metafile = true
 [[files]]
 file = "mods/strut-your-stuff.pw.toml"
 hash = "aa89e067824ca42d818a81a6d02ce5296ce662d834c35dd2ff0d81189d3bc3f9"
+metafile = true
+
+[[files]]
+file = "mods/studious-keybinds.pw.toml"
+hash = "f557c416202cf0d1116fe4f45762d6fac32c0a1c16dee92f14b9d66ec1796edb"
 metafile = true
 
 [[files]]
@@ -6076,6 +6094,11 @@ metafile = true
 [[files]]
 file = "resourcepacks/ImmersiveResprites-1.1.pw.toml"
 hash = "abcf81fe52c1de80cd0d36359c1cda270585fbb89cb7058b0250312d5bc13e23"
+metafile = true
+
+[[files]]
+file = "resourcepacks/JustExpressions_v1.2.1.pw.toml"
+hash = "e3a169a2c9ae0407561fec44a666cb67d589cfb34992cbf7b88797b56a2208e7"
 metafile = true
 
 [[files]]

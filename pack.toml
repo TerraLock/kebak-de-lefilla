@@ -1,12 +1,12 @@
 name = "Kebak de Lefilla"
 author = "TerraLock"
-version = "1.0.1"
+version = "1.0.2"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "3b77f2d956354d45ee7c01a68d2498f5aa0dbba468f80253264b7e4fa81b8311"
+hash = "be0fd934796e153bf6b7ae3c8c608eed48fad0c2df07355b2f9d4cb08494285f"
 
 [versions]
 minecraft = "1.21.1"
